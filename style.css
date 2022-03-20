@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  font-family: "Cinzel", serif;
+  /* background-color: #31202b; */
+  background-color: #555555;
+  color: #f4f4f4;
+}
+
+/* .container {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  text-align: center;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  margin: auto 1rem;
+  width: 80%;
+  height: auto;
+  padding: 1rem;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-shadow: 0 0 10px #f4f4f4;
+} */
+
+button {
+  cursor: pointer;
+  margin: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  font-family: "Cinzel", serif;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  color: #f4f4f4;
+}
+
+/* @media only screen and (max-width: 769px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .quote {
+    font-size: 1.25rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .quote {
+    width: 95%;
+  }
+} */
